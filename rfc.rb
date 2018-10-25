@@ -1,6 +1,9 @@
 
 require 'byebug'
 
+# num = number of fences
+# input = word to be ciphered
+
 def rfc(num, input)
   n = Array.new(num){[]}
   h = input.chars
